@@ -4,16 +4,7 @@
 #include <string>
 #include <iostream>
 
-// Se estiver rodando no windows
-// precisamos incluir a biblioteca
-// de modo diferente
-#ifdef _WIN32
-	#include <mysql.h>
-#else
-	// Em outros sistemas, creio eu,
-	// ó desse outro jeito
-	#include <mysql/mysql.h>
-#endif
+#include <mysql.h>
 
 ///////////////////
 /// Protótipos ////

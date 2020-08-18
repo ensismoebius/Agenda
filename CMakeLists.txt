@@ -1,7 +1,7 @@
  cmake_minimum_required(VERSION 2.8.1)
  project(agenda)
 
- include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
+ include(build/conanbuildinfo.cmake)
  conan_basic_setup()
 
  add_executable(agenda main.cpp)
