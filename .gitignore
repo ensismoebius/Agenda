@@ -355,7 +355,6 @@ MigrationBackup/
 .cproject
 .project
 .settings/
-.setupWindowsVisualStudio.bat
 CMakeCache.txt
 CMakeFiles/
 Makefile
@@ -364,3 +363,4 @@ conan.lock
 conanbuildinfo.cmake
 conanbuildinfo.txt
 graph_info.json
+conaninfo.txt
