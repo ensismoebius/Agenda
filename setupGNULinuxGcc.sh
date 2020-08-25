@@ -39,10 +39,10 @@ dr="Debug"
 
 conan profile new default --detect
 conan profile update settings.compiler.libcxx=libstdc++11 default
-conan install .
+conan install . -s build_type=$dr
 
 #######################
 ## Building software ##
 #######################
 cmake . -G "$ide" -DCMAKE_BUILD_TYPE=$dr
-cmake --build . 
+cmake --build .

@@ -1,0 +1,66 @@
+[settings]
+    arch=x86_64
+    build_type=Debug
+    compiler=gcc
+    compiler.libcxx=libstdc++11
+    compiler.version=9
+    os=Linux
+
+[requires]
+    mysql-connector-c/6.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    arch_build=x86_64
+    build_type=Debug
+    compiler=gcc
+    compiler.libcxx=libstdc++11
+    compiler.version=9
+    os=Linux
+    os_build=Linux
+
+[full_requires]
+    mysql-connector-c/6.1.11:56d0f1398e7ce75a70fd89237aea38d7ec37f654
+    openssl/1.0.2u:acc1bd9feeca12810ba1313c4fd8867e201d928f
+    zlib/1.2.11:23b828d52c0630e6b0b96d2945419feb7843c4f8
+
+[full_options]
+    mysql-connector-c:shared=False
+    mysql-connector-c:with_ssl=True
+    mysql-connector-c:with_zlib=True
+    openssl:386=False
+    openssl:fPIC=True
+    openssl:no_asm=False
+    openssl:no_async=False
+    openssl:no_bf=False
+    openssl:no_cast=False
+    openssl:no_des=False
+    openssl:no_dh=False
+    openssl:no_dsa=False
+    openssl:no_dso=False
+    openssl:no_hmac=False
+    openssl:no_md2=False
+    openssl:no_md5=False
+    openssl:no_mdc2=False
+    openssl:no_rc2=False
+    openssl:no_rc4=False
+    openssl:no_rc5=False
+    openssl:no_rsa=False
+    openssl:no_sha=False
+    openssl:no_sse2=False
+    openssl:no_threads=False
+    openssl:no_zlib=False
+    openssl:openssldir=None
+    openssl:shared=False
+    zlib:fPIC=True
+    zlib:minizip=False
+    zlib:shared=False
+
+[recipe_hash]
+
+
+[env]
+

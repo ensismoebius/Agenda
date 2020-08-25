@@ -348,5 +348,19 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Cmake auxiliary files
 /build
 /CMakeSettings.json
+.cproject
+.project
+.settings/
+.setupWindowsVisualStudio.bat
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+conan.lock
+conanbuildinfo.cmake
+conanbuildinfo.txt
+graph_info.json
